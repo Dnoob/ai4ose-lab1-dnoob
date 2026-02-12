@@ -1,0 +1,1 @@
+/root/ai4ose-lab1-dnoob/solutions/lab1/target/riscv64gc-unknown-none-elf/debug/lab1-bare-metal-solution: /root/ai4ose-lab1-dnoob/solutions/lab1/build.rs /root/ai4ose-lab1-dnoob/solutions/lab1/src/main.rs
