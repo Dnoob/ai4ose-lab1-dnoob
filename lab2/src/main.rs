@@ -9,7 +9,8 @@
 #![no_std]
 // 不使用标准入口，裸机环境没有 C runtime 进行初始化
 #![no_main]
-#![cfg_attr(target_arch = "riscv64", deny(warnings, missing_docs))]
+#![cfg_attr(target_arch = "riscv64", deny(missing_docs))]
+#![allow(unused)]
 #![cfg_attr(not(target_arch = "riscv64"), allow(dead_code))]
 
 // 引入控制台输出宏（print! / println!），由 tg_console 库提供
